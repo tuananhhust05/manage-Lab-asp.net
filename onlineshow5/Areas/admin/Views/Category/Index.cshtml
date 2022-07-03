@@ -1,0 +1,50 @@
+﻿@model List<Model13.Framework.Category>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_layout.cshtml";
+}
+
+
+
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                   <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                            <th>Alias</th>
+                                           
+                                            <th>ParentID </th>
+                                            <th>Order </th>
+                                            <th>Status</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach(var item in Model)
+                                        {<tr>
+                                            <td>@item.ID</td>
+                                            <td>@item.Name</td>
+                                            <td>@item.Alias</td>
+                                            
+                                            <td>@item.ParentID</td>
+                                            <td>@item.Order.GetValueOrDefault(0)</td>
+                                            <td>@item.Status?"Active":"Blocked"</td>
+                                        </tr>
+                                        }
+                                        
+                                        
+                                    </tbody>
+
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+               

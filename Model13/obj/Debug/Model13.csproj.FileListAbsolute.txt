@@ -1,0 +1,12 @@
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\Model13.dll.config
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\Model13.dll
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\Model13.pdb
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\EntityFramework.dll
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\EntityFramework.SqlServer.dll
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\EntityFramework.xml
+D:\Lập trình web\ASP.net\onlineshow5\Model13\bin\Debug\EntityFramework.SqlServer.xml
+D:\Lập trình web\ASP.net\onlineshow5\Model13\obj\Debug\Model13.csproj.AssemblyReference.cache
+D:\Lập trình web\ASP.net\onlineshow5\Model13\obj\Debug\Model13.csproj.CoreCompileInputs.cache
+D:\Lập trình web\ASP.net\onlineshow5\Model13\obj\Debug\Model13.csproj.CopyComplete
+D:\Lập trình web\ASP.net\onlineshow5\Model13\obj\Debug\Model13.dll
+D:\Lập trình web\ASP.net\onlineshow5\Model13\obj\Debug\Model13.pdb
